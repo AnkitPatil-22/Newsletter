@@ -37,7 +37,7 @@ app.post("/", (req, res) => {
 
   const options = {
     method: "POST",
-    auth: "ankit22:aa40e3032f4c28566e63fa3a3524b2046-us20"
+    auth: "ankit22:a40e3032f4c28566e63fa3a3524b2046-us20"
   }
 
   const request = https.request(url, options, (response) => {
